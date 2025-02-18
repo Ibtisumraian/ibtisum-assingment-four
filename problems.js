@@ -147,3 +147,41 @@
 
 // const result = validProposal( person1, person2)
 // console.log(result)
+
+
+
+
+
+
+
+
+
+// function  calculateSleepTime( times ) {
+
+//     for( const time of times){
+//         if (typeof time !== "number"){
+//             return 'Invalid'
+//         }
+//     }
+
+//     let sum = 0;
+//     for( const time of times){
+//         sum += time;
+//     }
+   
+//     let hour = Math.floor(sum / 3600);
+//     let minutes = Math.floor((sum % 3600) / 60);
+//     let second = Math.floor(sum % 60);
+
+//     const calculatedValue = {
+//         hour, 
+//         minutes, 
+//         second
+//     };
+    
+    
+//     return  calculatedValue;
+// }
+
+// let result = calculateSleepTime([1000, 2000, 725]);
+// console.log(result);
